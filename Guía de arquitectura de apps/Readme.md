@@ -27,7 +27,7 @@ Si una app está basada en clases de modelos con una responsabilidad bien defini
 
 ## Arquitectura de app recomendada
 
-![Arquitectura de app recomendada]()
+<img width="800" src="https://github.com/arbems/Android-with-Kotlin-App-Architecture/blob/master/Gu%C3%ADa%20de%20arquitectura%20de%20apps/0001.png?raw=true">
 
 Este diseño crea una experiencia del usuario consistente y agradable. Independientemente de que el usuario vuelva a la app varios minutos después de cerrarla por última vez o varios días más tarde, verá al instante la información del usuario de que la app persiste a nivel local. Si estos datos están inactivos, el módulo de repositorio comienza a actualizar los datos en segundo plano.
 
@@ -35,18 +35,7 @@ Este diseño crea una experiencia del usuario consistente y agradable. Independi
 
 Cada componente solo depende del componente que está un nivel más abajo, excepto el repositorio.
 
-### **Crear la interfaz de usuario**
-
-La IU consta de un fragmento, *UserProfileFragment* y su archivo de diseño correspondiente, *user_profile_layout.xml*.
-
-Usamos un *UserProfileViewModel* basado en el componente de arquitectura de ViewModel para conservar esta información.
-
-
-
-
-### [Dragger](https://github.com/google/dagger/releases)
-
---------------------
+### **Actividad o fragmento**
 
 La IU consta de un fragmento o actividad y su archivo de diseño correspondiente. 
 
@@ -100,7 +89,14 @@ Saben de dónde obtener los datos y qué llamadas de API deben hacer cuando se a
 \* **WebServices**
 
 
-## Ejemplos
+## Enlaces
+
+[**Github Dagger**](https://github.com/google/dagger/releases)
+
+[**Github Retrofit**](https://square.github.io/retrofit/)
+
+[**Room**]()
+
 
 ## Attribution
 

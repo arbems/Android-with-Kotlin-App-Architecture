@@ -6,7 +6,7 @@
 
 #### [AndroidX]()
 
-#### [Arquitecturas & Patrones]()
+#### [Android KTX]()
 
 
 ## Attribution
