@@ -1,12 +1,12 @@
 # Android con Kotlin - Arquitectura de la app
 
-#### [Android Jetpack]()
+#### [Android Jetpack](https://github.com/arbems/Android-with-Kotlin-App-Architecture/tree/master/Android%20Jetpack)
 
 #### [Guía de arquitectura de apps](https://github.com/arbems/Android-with-Kotlin-App-Architecture/tree/master/Gu%C3%ADa%20de%20arquitectura%20de%20apps)
 
-#### [AndroidX]()
+#### [AndroidX](https://github.com/arbems/Android-with-Kotlin-App-Architecture/tree/master/AndroidX)
 
-#### [Android KTX]()
+#### [Android KTX](https://github.com/arbems/Android-with-Kotlin-App-Architecture/tree/master/Android%20KTX)
 
 
 ## Attribution
