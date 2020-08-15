@@ -27,7 +27,8 @@ Si una app está basada en clases de modelos con una responsabilidad bien defini
 
 ## Arquitectura de app recomendada
 
-<img width="800" src="https://github.com/arbems/Android-with-Kotlin-App-Architecture/blob/master/Gu%C3%ADa%20de%20arquitectura%20de%20apps/0001.png?raw=true">
+![Arquitectura de app recomendada](https://github.com/arbems/Android-with-Kotlin-App-Architecture/blob/master/Gu%C3%ADa%20de%20arquitectura%20de%20apps/0001.png?raw=true)
+<img width="800" src="">
 
 Este diseño crea una experiencia del usuario consistente y agradable. Independientemente de que el usuario vuelva a la app varios minutos después de cerrarla por última vez o varios días más tarde, verá al instante la información del usuario de que la app persiste a nivel local. Si estos datos están inactivos, el módulo de repositorio comienza a actualizar los datos en segundo plano.
 
