@@ -28,6 +28,16 @@ Los datos se pueden recuperar de diferentes fuentes, por ejemplo: API REST, Real
 * MVP generalmente tiene una asignación uno a uno entre el presentador y la vista, mientras que MVVM puede asignar muchas vistas a un ViewModel.
 * En MVVM el ViewModel no tiene referencia a la vista, mientras que en MVP la vista conoce al presentador.
 
+**MVVM Best Pratice:**
+- Avoid references to Views in ViewModels.
+- Instead of pushing data to the UI, let the UI observe changes to it.
+- Distribute responsibilities, add a domain layer if needed.
+- Add a data repository as the single-point entry to your data.
+- Expose information about the state of your data using a wrapper or another LiveData.
+- Consider edge cases, leaks and how long-running operations can affect the instances in your architecture.
+- Don’t put logic in the ViewModel that is critical to saving clean state or related to data. Any call you make from a ViewModel can be the last one.
+
+
 ## Attribution
 
 This code was created by [arbems](https://github.com/arbems) in 2020.

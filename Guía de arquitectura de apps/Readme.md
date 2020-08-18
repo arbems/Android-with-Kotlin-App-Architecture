@@ -1,12 +1,14 @@
 # Android con Kotlin - Guía de arquitectura de apps
 
-Código de ejemplo de la arqutectura recomendad por google y los diferentes patrones de presentación (MVP, MVVM) en Android con Kotlin.
+Código de ejemplo de la arquitectura recomendada por google y los diferentes patrones de presentación (MVP, MVVM y MVVM con DataBinding) en Android con Kotlin.
 
-[Modern Android Architecture]()
+[Arquitectura app recomendada]()
 
-[Patrón de arquitectura MVVM]()
+[Patrón MVP]()
 
-[Patrón de arquitectura MVP]()
+[Patrón MVVM]()
+
+[Patrón MVVM con Data Binding]()
 
 ## Attribution
 
