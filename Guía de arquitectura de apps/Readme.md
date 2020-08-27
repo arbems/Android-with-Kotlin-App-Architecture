@@ -6,6 +6,8 @@ Código de ejemplo de la arquitectura recomendada por google y los diferentes pa
 
 [Patrón de arquitectura MVP](https://github.com/arbems/Android-with-Kotlin-App-Architecture/tree/master/Gu%C3%ADa%20de%20arquitectura%20de%20apps/Patr%C3%B3n%20de%20arquitectura%20MVP)
 
+[Estructura de carpetas de arquitectura app recomendada](https://github.com/arbems/Android-with-Kotlin-App-Architecture/tree/master/Gu%C3%ADa%20de%20arquitectura%20de%20apps/Estructura%20de%20carpetas%20de%20arquitectura%20app%20recomendada)
+
 [Patrón de arquitectura MVVM](https://github.com/arbems/Android-with-Kotlin-App-Architecture/tree/master/Gu%C3%ADa%20de%20arquitectura%20de%20apps/Patr%C3%B3n%20de%20arquitectura%20MVVM)
 
 ## Attribution
