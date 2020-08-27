@@ -1,4 +1,4 @@
-# Android con Kotlin - Modern Android Architecture
+# Android con Kotlin - Arquitectura app recomendada
 
 A medida que el software comienza a crecer y a hacerse más complejo, es importante que tenga una forma bien definida para facilitar su mantenimiento y su crecimiento en el futuro. La arquitectura del software define la estructura que debe de tener una app, los componentes que debemos construir y como van a interactuar entre ellos.
 

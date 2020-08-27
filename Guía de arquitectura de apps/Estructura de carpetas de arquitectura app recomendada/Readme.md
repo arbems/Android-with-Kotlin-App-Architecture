@@ -1,4 +1,4 @@
-# Android con Kotlin - Estructura de carpetas de las aplicaciones de Android
+# Android con Kotlin - Estructura de carpetas de arquitectura app recomendada en aplicación Android
 
 *Proyecto que muestra como estructurar las carpetas dentro de aplicación Android usando la arquitectura recomendada por google para apps Android con Kotlin.*
 
