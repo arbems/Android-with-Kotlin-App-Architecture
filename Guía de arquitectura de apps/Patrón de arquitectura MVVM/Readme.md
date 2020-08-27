@@ -1,6 +1,6 @@
 # Android con Kotlin - Patrón de arquitectura Model View ViewModel (MVVM)
 
-![MVP]()
+![MVVM](https://raw.githubusercontent.com/arbems/Android-with-Kotlin-App-Architecture/master/Gu%C3%ADa%20de%20arquitectura%20de%20apps/0001.png)
 
 ### View
 
