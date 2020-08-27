@@ -36,6 +36,9 @@ Si una app está basada en clases de modelos con una responsabilidad bien defini
 
 ## Interfaz de usuario
 
+Los controladores de IU, como las actividades y los fragmentos, tienen como objetivo principal mostrar datos de IU, reaccionar a las acciones de los usuarios o administrar la comunicación del sistema operativo, como las solicitudes de permisos. Si se establece que los controladores de IU también sean responsables de cargar datos de una red o base de datos, la clase estará sobrecargada. Asignar demasiadas responsabilidades a los controladores de IU puede provocar que una sola clase trate de administrar todo el trabajo de una app por su cuenta, en lugar de delegar el trabajo a otras clases. Si asignas demasiadas responsabilidades a los controladores de IU de este modo, será mucho más difícil realizar las pruebas.
+Es más fácil y eficiente separar la propiedad de los datos de visualización de la lógica del controlador de IU.
+
 * Creamos la UI que consta de fragment (*UserProfileFragment*), es el controlador de IU que controla los datos.
 * Archivo de diseño correspondiente (*user_profile.xml*).
 * Usamos un **ViewModel** (*UserProfileViewModel*) basado en el componente de arquitectura con el mismo nombre. Es la clase que prepara los datos para su visualización en Fragment y reacciona a las interacciones del usuario.
@@ -105,6 +108,8 @@ Pruebas en Android
 
 
 ## ViewModel
+
+Se diseñó la clase ViewModel a fin de almacenar y administrar datos relacionados con la IU de manera optimizada para los ciclos de vida. La clase ViewModel permite que los datos sobrevivan a cambios de configuración, como las rotaciones de pantallas.
 
 Almacena y administra datos relacionados con la IU, de manera optimizada para los ciclos de vida.
 
