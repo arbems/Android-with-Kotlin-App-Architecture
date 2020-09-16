@@ -13,7 +13,7 @@ Cada componente solo depende del componente que está un nivel más abajo:
 * El modelo de vista depende de un repositorio
 * El repositorio depende de un modelo de datos persistente y de una fuente de datos de backend remota.
 
-<img src="https://raw.githubusercontent.com/arbems/Android-with-Kotlin-App-Architecture/master/0001.png" width="700">
+<img src="https://raw.githubusercontent.com/arbems/Android-with-Kotlin-App-Architecture/master/Arquitectura%20app%20recomendada/0001.png" width="900">
 
 ## Los principios de arquitectura
 
