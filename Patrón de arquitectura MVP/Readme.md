@@ -1,4 +1,4 @@
-# Android con Kotlin - Arquitectura Android MVP
+# Android con Kotlin - Patrón de arquitectura Android MVP
 
 Código de ejemplo que muestra el patrón de arquitectura MVP, mejora la arquitectura de la aplicación para aumentar la capacidad de prueba. El patrón MVP separa el modelo de datos, desde una vista hasta un presentador.
 
